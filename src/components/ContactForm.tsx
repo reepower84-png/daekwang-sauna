@@ -200,6 +200,18 @@ export default function ContactForm() {
                 )}
               </button>
 
+              <a
+                href="http://pf.kakao.com/_yVExkK/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 bg-[#FEE500] text-[#391B1B] rounded-xl text-lg font-semibold hover:bg-[#FDD835] transition-all flex items-center justify-center gap-2"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.86 5.33 4.66 6.76-.2.72-.74 2.65-.85 3.06-.13.51.19.5.4.36.16-.11 2.6-1.77 3.65-2.49.7.1 1.42.16 2.14.16 5.52 0 10-3.58 10-8s-4.48-8-10-8z" />
+                </svg>
+                카카오톡으로 상담하기
+              </a>
+
               <p className="text-xs text-gray-500 text-center">
                 상담 신청 시 개인정보 수집 및 이용에 동의하게 됩니다.
               </p>
